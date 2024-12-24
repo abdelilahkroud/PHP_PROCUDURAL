@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EA FC 25</title>
+    <link rel="stylesheet" href="./FIFA-25\fututil\accet\3-4-3.css">
+    <link rel="stylesheet" href="./FIFA-25\fututil\accet\4-3-3.css">
+    <link rel="stylesheet" href="./FIFA-25\fututil\accet\EA-FC-25.css">
+
+</head>
+
+<body>
+    <div class="allstade">
+        <div class="stadium">
+            <div class="center-circle"></div>
+            <div class="mideline"></div>
+            <div class="goal-area goal-left"></div>
+            <div class="goal-area goal-right"></div>
+            <div class="goal-area1 goal-left1"></div>
+            <div class="goal-area1 goal-right1"></div>
+        </div>
+
+        <div class="allscrol">
+
+            <button id="ajout">Ajouter</button>
+            <button id="ajout">Modifer</button>
+            <button id="ajout">Suprimer</button>
+
+
+            <div class="kartscroll" id="carts">
+
+                <div id="rowcart1">
+
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+
+                            <form class="form" id="ajouter">
+
+                                <span class="close" id="sp">&times;</span>
+                                <div class="title">playerinfo</div>
+                                <input class="input" type="text" name="nom" id="nom" placeholder="Nom">
+                                <input class="input" type="text" name="prenom" id="prenom" placeholder="Prenom">
+                                <input class="input" type="text" name="nation" id="nation" placeholder="nationality">
+                                <input class="input" type="text" name="club" id="club" placeholder="club">
+
+                                <button class="button-confirm" id="submit" type="submit">Confimer</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\25.png">
+                        <h1>Vandijk</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\24.png">
+                        <h1>Vandijk</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\26.png">
+                        <h1>Arnold</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\27.png">
+                        <h1>Vandijk</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\30.png">
+                        <h1>Vandijk</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\31.png">
+                        <h1>Davies</h1>
+                        <p>Position : GK</p>
+                    </div>
+                </div>
+
+                <div id="space"></div>
+
+                <div class="rowcart2">
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\43.png">
+                        <h1>Vandijk</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\30.png">
+                        <h1>Vandijk</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\36.png">
+                        <h1>Vandijk</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\26.png">
+                        <h1>Cristiano</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\25.png">
+                        <h1>Naymar</h1>
+                        <p>Position : GK</p>
+                    </div>
+                    <div class="kart">
+                        <img src="FIFA-25\fututil\images\27.png">
+                        <h1>Mbappé</h1>
+                        <p>Position : GK</p>
+                    </div>
+                </div>
+            </div>
+
+            <button id="changeFormation">
+                <span id="btnFor">3-4-4</span>
+            </button>
+
+        </div>
+    </div>
+
+
+
+    <section id="GK" >
+        <div style="display: flex;flex-direction: row;justify-content: space-around;">
+            <div style="margin-top: 1vh;">
+                <img id=flag src="https://cdn.sofifa.net/flags/ar.png" alt="">
+                <h6>RW</h6>
+            </div>
+            <div class="items">
+                <img style="width: 5vh;height: 5vh;" id=playerim src="https://cdn.sofifa.net/players/158/023/25_120.png">
+            </div>
+        </div>
+        <div style="margin-left: 2vh;">
+            <h4 id="playerid" style="margin-left: 7vh;">   Messi 
+                <input id="inpid"  style="display: none;" type="text"  style="width: 7vh;"></input>
+                <button id="myBtn" style="display: none;">Button</button>
+            </h4>
+            <h5>Inter Miami</h5>
+            <h5>Argentina</h5>
+        </div>
+        <div style="display: flex; flex-direction: row; justify-content: space-around;margin-top: 0.5vh;">
+            <div>
+                <p>ra:96</p>
+                <p>sh:92</p>
+                <p>pa:91</p>
+            </div>
+            <div>
+                <p>dr:95</p>
+                <p>de:35</p>
+                <p>ph:65</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="CBL" >
+        <img src="FIFA-25\fututil\images\33.png">
+        <h1>Marcello</h1>
+        <p>Position : CB</p>
+    </section>
+    <section id="CBR" >
+        <img src="FIFA-25\fututil\images\32.png">
+        <h1>Alponso</h1>
+        <p>Position : CB</p>
+    </section>
+    <section id="LB" >
+        <img src="FIFA-25\fututil\images\31.png">
+        <h1>Kimmich</h1>
+        <p>Position : LB</p>
+    </section>
+    <section id="RB" >
+        <img src="FIFA-25\fututil\images\30.png">
+        <h1>Modeic</h1>
+        <p>Position : RB</p>
+    </section>
+    <section id="DM" >
+        <img src="FIFA-25\fututil\images\29.png">
+        <h1>Diaz</h1>
+        <p>Position : DM</p>
+    </section>
+    <section id="CML" >
+        <img src="FIFA-25\fututil\images\28.png">
+        <h1>Benzema</h1>
+        <p>Position : CM</p>
+    </section>
+    <section id="CMR" >
+        <img src="FIFA-25\fututil\images\27.png">
+        <h1>Haaland</h1>
+        <p>Position : CM</p>
+    </section>
+    <section id="LW" >
+        <img src="FIFA-25\fututil\images\26.png">
+        <h1>Fernandes</h1>
+        <p>Position : LW</p>
+    </section>
+    <section id="RW" >
+        <img src="FIFA-25\fututil\images\25.png">
+        <h1>Sancho</h1>
+        <p>Position : RW</p>
+    </section>
+    <section id="ST" >
+        <img src="FIFA-25\fututil\images\24.png">
+        <h1>Kanté</h1>
+        <p>Position : ST</p>
+    </section>
+
+
+    <script src="./FIFA-25\fututil\j\EA-FC-25.js"></script>
+</body>
+
+</html>
